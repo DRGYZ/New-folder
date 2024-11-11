@@ -1,0 +1,809 @@
+<!DOCTYPE html>
+<html lang="english">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta property="twitter:card" content="summary_large_image" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./index.css" />
+    <link href="./index.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/animate.css@4.1.1/animate.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=STIX+Two+Text:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/@teleporthq/teleport-custom-scripts/dist/style.css"
+    />
+
+    <style data-tag="reset-style-sheet">
+      html {
+        line-height: 1.15;
+      }
+      body {
+        max-width: 1440px;
+        min-width: 320px;
+        margin: 0 auto;
+        font-family: Arial, sans-serif;
+        background-color: #f5f5f5; /* Default desktop background */
+      }
+      * {
+        box-sizing: border-box;
+        border-width: 0;
+        border-style: solid;
+      }
+      p,
+      li,
+      ul,
+      pre,
+      div,
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6,
+      figure,
+      blockquote,
+      figcaption {
+        margin: 0;
+        padding: 0;
+      }
+      button {
+        background-color: transparent;
+        border: none; /* Added for clarity */
+        padding: 0; /* Added for clarity */
+        font-family: inherit;
+        font-size: 100%;
+        line-height: 1.15;
+        margin: 0;
+        text-transform: none;
+      }
+
+      /* Reset styles for various form elements */
+      button,
+      input,
+      optgroup,
+      select,
+      textarea {
+        font-family: inherit;
+        font-size: 100%;
+        line-height: 1.15;
+        margin: 0;
+      }
+      a {
+        color: inherit;
+        text-decoration: inherit;
+      }
+      input {
+        padding: 2px 4px;
+      }
+      img {
+        display: block;
+      }
+      html {
+        scroll-behavior: smooth;
+      }
+    </style>
+    <style data-tag="default-style-sheet">
+      html {
+        font-family: "Inter", sans-serif; /* Added fallback font */
+        font-size: 16px;
+        scroll-behavior: smooth;
+      }
+
+      body {
+        font-weight: 400;
+        font-style: normal;
+        text-decoration: none;
+        text-transform: none;
+        letter-spacing: normal;
+        line-height: 1.15;
+        color: var(--dl-color-theme-neutral-dark);
+        background: var(--dl-color-theme-neutral-light);
+        fill: var(--dl-color-theme-neutral-dark);
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <div class="frame1-desktop">
+        <div class="frame1-header">
+          <div class="frame1-menu">
+            <button class="frame1-buttons">
+              <span class="frame1-btn-hbergement">
+                <span class="frame1-text1 NavStandard">Hébergements</span>
+                <img
+                  src="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/09d3853b-aa1a-4930-9365-d0b9257959e1/c032c183-673c-47df-982c-75d815408b8f?org_if_sml=1116&amp;force_format=original"
+                  alt="BgbarI138"
+                  class="frame1-bgbar"
+                />
+                <img
+                  src="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/09d3853b-aa1a-4930-9365-d0b9257959e1/615ea4a0-8312-4399-8ee0-90fb22fcdd6a?org_if_sml=1104&amp;force_format=original"
+                  alt="BluebarI138"
+                  class="frame1-bgbar"
+                />
+              </span>
+              <span class="frame1-btn-activits">
+                <span class="frame1-text2 NavStandard">Activités</span>
+                <img
+                  src="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/09d3853b-aa1a-4930-9365-d0b9257959e1/d7fb7005-1a38-4bcd-9fd2-9ace04911010?org_if_sml=1103&amp;force_format=original"
+                  alt="Rectangle26I138"
+                  class="frame1-rectangle1"
+                />
+              </span>
+            </button>
+          </div>
+          <div class="frame1-logo-reservia">
+            <div class="frame1-logo">
+              <img
+                src="public/external/bookii138-psho.svg"
+                alt="BookiI138"
+                class="frame1-booki"
+              />
+              <div class="frame1-group1">
+                <img
+                  src="public/external/ellipse14i138-nsqc.svg"
+                  alt="Ellipse14I138"
+                  class="frame1-ellipse1"
+                />
+                <img
+                  src="public/external/vector2i138-czba.svg"
+                  alt="Vector2I138"
+                  class="frame1-vector2"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="frame1-body">
+          <div class="frame1-infogroup">
+            <div class="frame1-headline">
+              <span class=".frame1-text3">
+                <span>
+                  Trouvez votre hébergement pour des vacances de rêve
+                </span>
+              </span>
+              <span class="frame1-text3 FooterLink">
+                <span>En plein centre-ville ou en pleine nature</span>
+              </span>
+            </div>
+            <div class="frame1-searchbar">
+              <div class="frame1-group2">
+                <img
+                  src="public/external/vectori138-fkgk.svg"
+                  alt="VectorI138"
+                  class="frame1-vector1"
+                />
+              </div>
+              <span class="frame1-text4">
+                <span>Marseille, France</span>
+              </span>
+              <button class="frame1-button-search-desktop">
+                <span class="frame1-text5">
+                  <span>Rechercher</span>
+                </span>
+              </button>
+            </div>
+            <div class="frame1-filter-bar">
+              <span class="frame1-text6 TitleFilter">
+                <span>Filtres</span>
+              </span>
+              <button class="frame1-filter1">
+                <img
+                  src="public/external/iconi138-ku1p.svg"
+                  alt="IconI138"
+                  class="frame1-icon1"
+                />
+                <span class="frame1-text7">
+                  <span>Économique</span>
+                </span>
+              </button>
+              <button class="frame1-filter1">
+                <img
+                  src="public/external/iconi138-ean9.svg"
+                  alt="IconI138"
+                  class="frame1-icon1"
+                />
+                <span class="frame1-text7"> <span>Familial</span> </span>>
+              </button>
+              <button class="frame1-filter1">
+                <img
+                  src="public/external/iconi138-25fr.svg"
+                  alt="IconI138"
+                  class="frame1-icon1"
+                />
+                <span class="frame1-text7">
+                  <span>Romantique</span>
+                </span>
+              </button>
+              <button class="frame1-filter2">
+                <img
+                  src="public/external/iconi138-xt9i.svg"
+                  alt="IconI138"
+                  class="frame1-icon1"
+                />
+                <span class="frame1-text7">Nos pépites</span>
+              </button>
+            </div>
+            <div class="frame1-infobar">
+              <div class="frame1-icon2">
+                <label class="container">
+                  <input type="checkbox" checked="checked" />
+                  <span class="checkmark"></span>
+                </label>
+              </div>
+              <span class="frame1-text8 Information">
+                <span>
+                  Plus de 500 logements sont disponibles dans cette ville
+                </span>
+              </span>
+            </div>
+          </div>
+          <div class="frame1-sectiongroup">
+            <div class="frame1-offers-main">
+              <span class=".frame1-text3">
+                <span>Hébergements à Marseille</span>
+              </span>
+              <div class="frame1-frame2">
+                <div class="frame1-card-main1">
+                  <img
+                    src="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/09d3853b-aa1a-4930-9365-d0b9257959e1/9e8bfab1-b619-4f4f-832a-d29328cdd136?org_if_sml=115271&amp;force_format=original"
+                    alt="Rectangle20I138"
+                    class="frame1-rectangle2"
+                  />
+                  <div class="frame1-frame3">
+                    <span class=".frame1-text3">
+                      <span>Hôtel du port</span>
+                    </span>
+                    <span class="frame1-text9"> Nuit à partir de 52€ </span>
+                    <div class="frame1-stars1">
+                      <img
+                        src="public/external/iconi138-1vzs.svg"
+                        alt="IconI138"
+                        class="frame1-icon3"
+                      />
+                      <img
+                        src="public/external/iconi138-7k9.svg"
+                        alt="IconI138"
+                        class="frame1-icon4"
+                      />
+                      <img
+                        src="public/external/iconi138-wgbv.svg"
+                        alt="IconI138"
+                        class="frame1-icon5"
+                      />
+                      <img
+                        src="public/external/iconi138-nu6.svg"
+                        alt="IconI138"
+                        class="frame1-icon6"
+                      />
+                      <img
+                        src="public/external/iconi138-p7t9.svg"
+                        alt="IconI138"
+                        class="frame1-icon7"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div class="frame1-card-main1">
+                  <img
+                    src="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/09d3853b-aa1a-4930-9365-d0b9257959e1/e8d6a8cf-c556-43c3-842b-80132b3e6c65?org_if_sml=119463&amp;force_format=original"
+                    alt="Rectangle20I138"
+                    class="frame1-rectangle2"
+                  />
+                  <div class="frame1-frame3">
+                    <span class=".frame1-text3">
+                      <span>Hôtel Chez Amina</span>
+                    </span>
+                    <span class="frame1-text9">
+                      <span class="frame1-text10"> Nuit à partir de 96€ </span>
+                    </span>
+                    <div class="frame1-stars1">
+                      <img
+                        src="public/external/iconi138-1vzs.svg"
+                        alt="IconI138"
+                        class="frame1-icon3"
+                      />
+                      <img
+                        src="public/external/iconi138-7k9.svg"
+                        alt="IconI138"
+                        class="frame1-icon4"
+                      />
+                      <img
+                        src="public/external/iconi138-wgbv.svg"
+                        alt="IconI138"
+                        class="frame1-icon5"
+                      />
+                      <img
+                        src="public/external/iconi138-nu6.svg"
+                        alt="IconI138"
+                        class="frame1-icon6"
+                      />
+                      <img
+                        src="public/external/iconi138-p7t9.svg"
+                        alt="IconI138"
+                        class="frame1-icon7"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div class="frame1-card-main1">
+                  <img
+                    src="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/09d3853b-aa1a-4930-9365-d0b9257959e1/4909b9c4-c3bc-4688-a8df-5ccfc034d48f?org_if_sml=121531&amp;force_format=original"
+                    alt="Rectangle20I138"
+                    class="frame1-rectangle2"
+                  />
+                  <div class="frame1-frame3">
+                    <span class=".frame1-text3">
+                      <span>Hôtel Les mouettes</span>
+                    </span>
+                    <span class="frame1-text9">
+                      <span class="frame1-text10"> Nuit à partir de 76€ </span>
+                    </span>
+                    <div class="frame1-stars1">
+                      <img
+                        src="public/external/iconi138-1vzs.svg"
+                        alt="IconI138"
+                        class="frame1-icon3"
+                      />
+                      <img
+                        src="public/external/iconi138-7k9.svg"
+                        alt="IconI138"
+                        class="frame1-icon4"
+                      />
+                      <img
+                        src="public/external/iconi138-wgbv.svg"
+                        alt="IconI138"
+                        class="frame1-icon5"
+                      />
+                      <img
+                        src="public/external/iconi138-nu6.svg"
+                        alt="IconI138"
+                        class="frame1-icon6"
+                      />
+                      <img
+                        src="public/external/iconi138-p7t9.svg"
+                        alt="IconI138"
+                        class="frame1-icon7"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="frame1-frame2">
+                <div class="frame1-card-main1">
+                  <img
+                    src="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/09d3853b-aa1a-4930-9365-d0b9257959e1/ff65905f-aec3-4c1a-a315-59ba8ed3eba1?org_if_sml=118543&amp;force_format=original"
+                    alt="Rectangle20I138"
+                    class="frame1-rectangle2"
+                  />
+                  <div class="frame1-frame3">
+                    <span class=".frame1-text3">
+                      <span>Hôtel de la mer</span>
+                    </span>
+                    <span class="frame1-text9">
+                      <span class="frame1-text10"> Nuit à partir de 46€ </span>
+                    </span>
+                    <div class="frame1-stars1">
+                      <img
+                        src="public/external/iconi138-1vzs.svg"
+                        alt="IconI138"
+                        class="frame1-icon3"
+                      />
+                      <img
+                        src="public/external/iconi138-7k9.svg"
+                        alt="IconI138"
+                        class="frame1-icon4"
+                      />
+                      <img
+                        src="public/external/iconi138-wgbv.svg"
+                        alt="IconI138"
+                        class="frame1-icon5"
+                      />
+                      <img
+                        src="public/external/iconi138-nu6.svg"
+                        alt="IconI138"
+                        class="frame1-icon6"
+                      />
+                      <img
+                        src="public/external/iconi138-p7t9.svg"
+                        alt="IconI138"
+                        class="frame1-icon7"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div class="frame1-card-main1">
+                  <img
+                    src="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/09d3853b-aa1a-4930-9365-d0b9257959e1/0d546e08-825c-414f-b165-8c86c9306a1a?org_if_sml=121192&amp;force_format=original"
+                    alt="Rectangle20I138"
+                    class="frame1-rectangle2"
+                  />
+                  <div class="frame1-frame3">
+                    <span class=".frame1-text3">
+                      <span>Auberge La Canebière</span>
+                    </span>
+                    <span class="frame1-text9">
+                      <span class="frame1-text10"> Nuit à partir de 25€ </span>
+                    </span>
+                    <div class="frame1-stars1">
+                      <img
+                        src="public/external/iconi138-1vzs.svg"
+                        alt="IconI138"
+                        class="frame1-icon3"
+                      />
+                      <img
+                        src="public/external/iconi138-7k9.svg"
+                        alt="IconI138"
+                        class="frame1-icon4"
+                      />
+                      <img
+                        src="public/external/iconi138-wgbv.svg"
+                        alt="IconI138"
+                        class="frame1-icon5"
+                      />
+                      <img
+                        src="public/external/iconi138-nu6.svg"
+                        alt="IconI138"
+                        class="frame1-icon6"
+                      />
+                      <img
+                        src="public/external/iconi138-p7t9.svg"
+                        alt="IconI138"
+                        class="frame1-icon7"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div class="frame1-card-main1">
+                  <img
+                    src="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/09d3853b-aa1a-4930-9365-d0b9257959e1/ae42fbe4-9337-4a76-a654-b2132c269f18?org_if_sml=124406&amp;force_format=original"
+                    alt="Rectangle20I138"
+                    class="frame1-rectangle2"
+                  />
+                  <div class="frame1-frame3">
+                    <span class=".frame1-text3">
+                      <span>Auberge Le Panier</span>
+                    </span>
+                    <span class="frame1-text9">
+                      <span class="frame1-text10"> Nuit à partir de 23€ </span>
+                    </span>
+                    <div class="frame1-stars1">
+                      <img
+                        src="public/external/iconi138-1vzs.svg"
+                        alt="IconI138"
+                        class="frame1-icon3"
+                      />
+                      <img
+                        src="public/external/iconi138-7k9.svg"
+                        alt="IconI138"
+                        class="frame1-icon4"
+                      />
+                      <img
+                        src="public/external/iconi138-wgbv.svg"
+                        alt="IconI138"
+                        class="frame1-icon5"
+                      />
+                      <img
+                        src="public/external/iconi138-nu6.svg"
+                        alt="IconI138"
+                        class="frame1-icon6"
+                      />
+                      <img
+                        src="public/external/iconi138-p7t9.svg"
+                        alt="IconI138"
+                        class="frame1-icon7"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <span class="frame1-text3 TitleFilter">
+                <span>Afficher plus</span>
+              </span>
+            </div>
+            <div class="frame1-offers-sponsored">
+              <div class="frame1-titre">
+                <img
+                  src="public/external/iconi138-xwai.svg"
+                  alt="IconI138"
+                  class="frame1-icon8"
+                />
+                <span class="frame1-text10 TitleSection">
+                  <span>Les plus populaires</span>
+                </span>
+              </div>
+              <div class="frame1-frame4">
+                <div class="frame1-card-desktop1">
+                  <div class="frame1-frame5">
+                    <div class="frame1-frame6">
+                      <span class=".frame1-text3">
+                        <span>Hôtel Le soleil du matin</span>
+                      </span>
+                      <span class="frame1-text9">
+                        <span class="frame1-text10">
+                          Nuit à partir de 25€
+                        </span>
+                      </span>
+                    </div>
+                    <div class="frame1-stars2">
+                      <img
+                        src="public/external/iconi138-1vzs.svg"
+                        alt="IconI138"
+                        class="frame1-icon3"
+                      />
+                      <img
+                        src="public/external/iconi138-7k9.svg"
+                        alt="IconI138"
+                        class="frame1-icon4"
+                      />
+                      <img
+                        src="public/external/iconi138-wgbv.svg"
+                        alt="IconI138"
+                        class="frame1-icon5"
+                      />
+                      <img
+                        src="public/external/iconi138-nu6.svg"
+                        alt="IconI138"
+                        class="frame1-icon6"
+                      />
+                      <img
+                        src="public/external/iconi138-p7t9.svg"
+                        alt="IconI138"
+                        class="frame1-icon7"
+                      />
+                    </div>
+                  </div>
+                  <img
+                    src="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/09d3853b-aa1a-4930-9365-d0b9257959e1/def83481-7d7d-4002-a21d-07efc186663a?org_if_sml=113008&amp;force_format=original"
+                    alt="Rectangle24I138"
+                    class="frame1-rectangle3"
+                  />
+                </div>
+                <div class="frame1-card-desktop1">
+                  <div class="frame1-frame5">
+                    <div class="frame1-frame6">
+                      <span class=".frame1-text3">
+                        <span>Chambres d’hôtes Au cœur de l’eau</span>
+                      </span>
+                      <span class="frame1-text9">
+                        <span class="frame1-text10">
+                          Nuit à partir de 71€
+                        </span>
+                      </span>
+                    </div>
+                    <div class="frame1-stars2">
+                      <img
+                        src="public/external/iconi138-1vzs.svg"
+                        alt="IconI138"
+                        class="frame1-icon3"
+                      />
+                      <img
+                        src="public/external/iconi138-7k9.svg"
+                        alt="IconI138"
+                        class="frame1-icon4"
+                      />
+                      <img
+                        src="public/external/iconi138-wgbv.svg"
+                        alt="IconI138"
+                        class="frame1-icon5"
+                      />
+                      <img
+                        src="public/external/iconi138-nu6.svg"
+                        alt="IconI138"
+                        class="frame1-icon6"
+                      />
+                      <img
+                        src="public/external/iconi138-p7t9.svg"
+                        alt="IconI138"
+                        class="frame1-icon7"
+                      />
+                    </div>
+                  </div>
+                  <img
+                    src="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/09d3853b-aa1a-4930-9365-d0b9257959e1/58aa5bb1-9dc1-463a-a4b9-106a2fd7c954?org_if_sml=114098&amp;force_format=original"
+                    alt="Rectangle24I138"
+                    class="frame1-rectangle3"
+                  />
+                </div>
+                <div class="frame1-card-desktop1">
+                  <div class="frame1-frame5">
+                    <div class="frame1-frame6">
+                      <span class=".frame1-text3">
+                        <span>Hôtel Bleu et Blanc</span>
+                      </span>
+                      <span class="frame1-text9">
+                        <span class="frame1-text10">
+                          Nuit à partir de 68€
+                        </span>
+                      </span>
+                    </div>
+                    <div class="frame1-stars2">
+                      <img
+                        src="public/external/iconi138-1vzs.svg"
+                        alt="IconI138"
+                        class="frame1-icon3"
+                      />
+                      <img
+                        src="public/external/iconi138-7k9.svg"
+                        alt="IconI138"
+                        class="frame1-icon4"
+                      />
+                      <img
+                        src="public/external/iconi138-wgbv.svg"
+                        alt="IconI138"
+                        class="frame1-icon5"
+                      />
+                      <img
+                        src="public/external/iconi138-nu6.svg"
+                        alt="IconI138"
+                        class="frame1-icon6"
+                      />
+                      <img
+                        src="public/external/iconi138-p7t9.svg"
+                        alt="IconI138"
+                        class="frame1-icon7"
+                      />
+                    </div>
+                  </div>
+                  <img
+                    src="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/09d3853b-aa1a-4930-9365-d0b9257959e1/2443d27c-4c2f-49bd-a07b-25bfe292e9b4?org_if_sml=111403&amp;force_format=original"
+                    alt="Rectangle24I138"
+                    class="frame1-rectangle3"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="frame1-section-activits">
+            <span class=".frame1-text3">
+              <span>Activités à Marseille</span>
+            </span>
+            <div class="frame1-frame2">
+              <div class="frame1-card1">
+                <img
+                  src="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/09d3853b-aa1a-4930-9365-d0b9257959e1/8c97c3e9-4c29-4fde-8c98-3986daf89738?org_if_sml=174803&amp;force_format=original"
+                  alt="Rectangle27I138"
+                  class="frame1-rectangle4"
+                />
+                <div class="frame1-frame7">
+                  <span class=".frame1-text3">
+                    <span>Vieux-Port</span>
+                  </span>
+                </div>
+              </div>
+              <div class="frame1-card2">
+                <img
+                  src="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/09d3853b-aa1a-4930-9365-d0b9257959e1/8ef133e2-e42c-43fc-b26e-777e4d7809ad?org_if_sml=158444&amp;force_format=original"
+                  alt="Rectangle27I138"
+                  class="frame1-rectangle4"
+                />
+                <div class="frame1-frame7">
+                  <span class=".frame1-text3">
+                    <span>Fort de Pomègues</span>
+                  </span>
+                </div>
+              </div>
+              <div class="frame1-card3">
+                <img
+                  src="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/09d3853b-aa1a-4930-9365-d0b9257959e1/3803a4d4-7459-4ba5-865f-673a7132afba?org_if_sml=163540&amp;force_format=original"
+                  alt="Rectangle27I138"
+                  class="frame1-rectangle4"
+                />
+                <div class="frame1-frame7">
+                  <span class=".frame1-text3">
+                    <span>Parc national des Calanques</span>
+                  </span>
+                </div>
+              </div>
+              <div class="frame1-card4">
+                <img
+                  src="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/09d3853b-aa1a-4930-9365-d0b9257959e1/acac9c17-2be6-47e1-9d20-d3f57d73824c?org_if_sml=172154&amp;force_format=original"
+                  alt="Rectangle27I138"
+                  class="frame1-rectangle4"
+                />
+                <div class="frame1-frame7">
+                  <span class=".frame1-text3">
+                    <span>Notre-Dame-de-la-Garde</span>
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="frame1-footer">
+            <div class="frame1-apropos">
+              <span class="frame1-text12">
+                <span>À propos</span>
+              </span>
+              <span class="frame1-text12">
+                <span>Fonctionnement du site</span>
+              </span>
+              <span class="frame1-text12">
+                <span>
+                  <span>Conditions générales</span>
+                  <span></span>
+                </span>
+              </span>
+              <span class="frame1-text12">
+                <span>Données et confidentialité</span>
+              </span>
+            </div>
+            <div class="frame1-apropos">
+              <span class="frame1-text12">
+                <span>Nos hébergements</span>
+              </span>
+              <span class="frame1-text12">
+                <span>Charte qualité</span>
+              </span>
+              <span class="frame1-text12">
+                <span>Proposer votre hôtel</span>
+              </span>
+            </div>
+            <div class="frame1-apropos">
+              <span class="frame1-text12">
+                <span>Assistance</span>
+              </span>
+              <span class="frame1-text12">
+                <span>Centre d’aide</span>
+              </span>
+              <span class="frame1-text12">
+                <span>Nous contacter</span>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,998 @@
+.frame1-desktop {
+  gap: 30px;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  max-width: 1440px; /* Set a max-width */
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+  background-color: rgba(255, 255, 255, 1);
+}
+.frame1-header {
+  width: 100%;
+  max-width: 1440px; /* Set a max-width */
+  height: 79px;
+  display: flex;
+  position: relative;
+  align-self: stretch;
+  align-items: flex-start;
+  padding: 20px;
+  box-sizing: border-box; /* Include padding in width calculation */
+}
+.frame1-menu {
+  gap: 68px;
+  top: 0px;
+  left: 1096px;
+  width: 344px;
+  display: flex;
+  padding: 0 50px;
+  position: absolute;
+  align-items: center;
+  flex-direction: column;
+}
+.frame1-buttons {
+  gap: 68px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  border: none;
+  cursor: pointer;
+  flex-wrap: wrap;
+}
+.frame1-btn-hbergement {
+  width: 113px;
+  height: 35px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 1;
+  background-color: transparent;
+}
+/* Hover effect for the Hébergements button */
+.frame1-btn-hbergement:hover {
+  color: var(--dl-color-default-blue);
+}
+.frame1-text1 {
+  top: 16px;
+  height: auto;
+  position: absolute;
+  text-align: center;
+  line-height: normal;
+}
+.frame1-text2 {
+  top: 16px;
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  position: absolute;
+  text-align: center;
+  line-height: normal;
+}
+.frame1-text3 {
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  align-self: stretch;
+  text-align: left;
+  line-height: normal;
+  font-weight: bold;
+}
+.frame1-text4 {
+  color: var(--dl-color-default-black);
+  height: auto;
+  font-size: 18px;
+  font-style: Bold;
+  text-align: center;
+  font-family: Raleway;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.frame1-text5 {
+  color: rgb(0, 0, 0);
+  height: auto;
+  font-size: 18px;
+  font-style: Bold;
+  text-align: center;
+  font-family: Raleway;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.frame1-text6 {
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  text-align: center;
+  line-height: normal;
+}
+.frame1-text7 {
+  color: var(--dl-color-default-black);
+  height: auto;
+  font-size: 17px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Raleway;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.frame1-text8 {
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  flex-grow: 1;
+  text-align: left;
+  line-height: normal;
+  margin-bottom: 10px;
+}
+.frame1-text9 {
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  font-size: 14px;
+  align-self: stretch;
+  font-style: Regular;
+  text-align: left;
+  font-family: Raleway;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.frame1-text10 {
+  font-weight: 400;
+}
+.frame1-text11 {
+  color: rgba(0, 0, 0, 1);
+  width: 400px;
+  height: auto;
+  position: absolute;
+  text-align: left;
+  line-height: normal;
+}
+.frame1-text12 {
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  text-align: left;
+  line-height: normal;
+}
+.frame1-bgbar {
+  top: 0px;
+  left: 0px;
+  width: 113px;
+  height: 2px;
+  position: absolute;
+}
+.frame1-btn-activits {
+  width: 63px;
+  height: 35px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.frame1-rectangle1 {
+  top: 0px;
+  left: 0px;
+  width: 100%; /* Full width for responsiveness */
+  max-width: 63px; /* Limit the width */
+  height: 2px;
+  position: absolute;
+}
+.frame1-logo-reservia {
+  gap: 10px;
+  width: 100%; /* Adjust for responsiveness */
+  max-width: 161px;
+  display: flex;
+  padding: 30px 20px; /* Adjust padding for smaller screens */
+  position: absolute;
+  flex-direction: column;
+}
+.frame1-logo {
+  width: 100%;
+  max-width: 61px;
+  height: 19px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.frame1-booki {
+  width: 100%;
+  max-width: 61px;
+  height: 19px;
+  position: absolute;
+}
+.frame1-group1 {
+  top: 8.5px;
+  left: 35px;
+  width: auto; /* Responsive auto width */
+  height: auto;
+  display: flex;
+  position: relative;
+  flex-shrink: 1;
+}
+.frame1-ellipse1 {
+  width: 3px;
+  height: 3px;
+  position: absolute;
+}
+.frame1-vector2 {
+  width: 3px;
+  height: 5px;
+  position: absolute;
+}
+.frame1-body {
+  gap: 35px;
+  display: flex;
+  padding: 0 20px;
+  flex-direction: column;
+  max-height: 100vh;
+  overflow-y: auto;
+}
+.frame1-infogroup {
+  gap: 35px;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+}
+.frame1-headline {
+  gap: 8px;
+  height: 53px;
+  display: flex;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+.frame1-searchbar {
+  gap: 24px;
+  width: 377px;
+  height: 49px;
+  display: flex;
+  box-sizing: content-box;
+  align-items: center;
+  border-color: rgba(242, 242, 242, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 15px;
+  background-color: var(--dl-color-default-white);
+}
+.frame1-group2 {
+  width: 50px;
+  height: 49px;
+  display: flex;
+  position: relative;
+  background-color: rgba(242, 242, 242, 1);
+}
+.frame1-button-search-desktop {
+  gap: 10px;
+  height: 49px;
+  display: flex;
+  padding: 15px 16px;
+  box-sizing: content-box;
+  border-width: 1px;
+  border-radius: 0 15px 15px 0;
+  cursor: pointer;
+}
+.frame1-button-search-desktop:hover {
+  background-color: var(--dl-color-default-blue);
+}
+.frame1-filter-bar {
+  gap: 15px;
+  height: 50px;
+  display: flex;
+  flex-wrap: wrap; /* Allow filters to wrap on smaller screens */
+}
+.frame1-filter1,
+.frame1-filter2 {
+  gap: 10px;
+  height: 50px;
+  display: flex;
+  padding: 4px 19px;
+  align-items: center;
+  flex-shrink: 0;
+  border: 2px solid rgba(217, 217, 217, 1);
+  border-radius: 25px;
+  cursor: pointer;
+}
+.frame1-filter2:hover {
+  background-color: #deebff;
+}
+.frame1-infobar {
+  gap: 10px;
+  display: flex;
+  z-index: 3;
+  align-self: stretch;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.frame1-ellipse11 {
+  top: 0px;
+  left: 0px;
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  border: 1px solid rgba(217, 217, 217, 1);
+}
+
+.frame1-vector3 {
+  top: 7px;
+  left: 10px;
+  width: 4px;
+  height: 10px;
+  position: absolute;
+}
+
+.frame1-sectiongroup {
+  gap: 40px;
+  display: flex;
+  align-self: stretch;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.frame1-offers-main {
+  gap: 30px;
+  display: flex;
+  padding: 30px;
+  flex-grow: 1;
+  align-self: stretch;
+  align-items: flex-start;
+  border-radius: 15px;
+  flex-direction: column;
+  background-color: var(--dl-color-default-grey);
+  max-height: 80vh;
+  overflow-y: auto;
+}
+
+.frame1-frame2 {
+  gap: 30px;
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+
+.frame1-card-main1 {
+  gap: 4px;
+  width: 100%; /* Make width responsive */
+  max-width: 250px; /* Set a max width for larger screens */
+  display: flex;
+  padding: 0 0 15px;
+  flex-grow: 1;
+  box-shadow: 0px 3px 15px 0px rgba(0, 0, 0, 0.1);
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 20px;
+  flex-direction: column;
+  background-color: rgba(255, 255, 255, 1);
+}
+
+.frame1-rectangle2 {
+  width: 100%; /* Full width */
+  height: 124px;
+  align-self: stretch;
+  border: 5px solid rgba(255, 255, 255, 1);
+  border-radius: 20px 20px 0 0;
+}
+
+.frame1-frame3 {
+  gap: 8px;
+  display: flex;
+  padding: 0 15px;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.frame1-stars1 {
+  width: 81px;
+  height: 13.25px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+
+.frame1-icon1 {
+  width: 22px;
+  height: 22px;
+}
+
+.frame1-icon2 {
+  width: 24px;
+  height: 24px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+
+.frame1-icon3,
+.frame1-icon4,
+.frame1-icon5,
+.frame1-icon6,
+.frame1-icon7 {
+  width: 14px;
+  height: 13px;
+  position: absolute;
+}
+
+.frame1-icon8 {
+  top: 5px;
+  left: 351px;
+  width: 18px;
+  height: 16px;
+  position: absolute;
+}
+
+.frame1-icon9,
+.frame1-icon10,
+.frame1-icon11,
+.frame1-icon12,
+.frame1-icon13 {
+  width: 12px;
+  height: 12px;
+  position: absolute;
+}
+
+.frame1-offers-sponsored {
+  gap: 30px;
+  height: auto; /* Change height to auto for flexibility */
+  max-height: 80vh; /* Set a max height for the container */
+  overflow-y: auto; /* Enable vertical scrolling */
+  display: flex;
+  padding: 30px;
+  align-self: stretch;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 15px;
+  flex-direction: column;
+  background-color: var(--dl-color-default-grey);
+}
+.frame1-titre {
+  width: 369px;
+  height: 26px;
+  display: flex;
+  position: relative;
+  align-self: stretch;
+  align-items: flex-start;
+}
+
+.frame1-frame4 {
+  gap: 30px;
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.frame1-card-desktop1 {
+  width: 369px;
+  height: 146px;
+  display: flex;
+  position: relative;
+  align-self: stretch;
+  box-shadow: 0px 3px 15px 0px rgba(0, 0, 0, 0.10000000149011612);
+  align-items: center;
+  border-radius: 20px;
+  background-color: rgba(255, 255, 255, 1);
+}
+.frame1-frame5 {
+  gap: 24px;
+  top: 5px;
+  left: 123px;
+  width: 246px;
+  height: 136px;
+  display: flex;
+  padding: 10px 5px 5px 15px;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+.frame1-frame6 {
+  gap: 5px;
+  display: flex;
+  flex-grow: 1;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.frame1-stars2 {
+  width: 68px;
+  height: 12px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+
+.frame1-rectangle3 {
+  top: 0px;
+  left: 0px;
+  width: 123px;
+  height: 146px;
+  position: absolute;
+  border-color: rgba(255, 255, 255, 1);
+  border-radius: 20px 0 0 20px;
+}
+.frame1-section-activits {
+  gap: 30px;
+  display: flex;
+  padding: 30px;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+  max-height: 100vh; /* Limit height to 80% of viewport height */
+}
+.frame1-card1 {
+  width: 297.5px;
+  display: flex;
+  overflow: hidden;
+  flex-grow: 1;
+  box-shadow: 0px 3px 15px 0px rgba(0, 0, 0, 0.10000000149011612);
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 20px;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.frame1-rectangle4 {
+  width: auto;
+  height: 380px;
+  align-self: stretch;
+  border-radius: 20px 20px 0 0;
+}
+.frame1-frame7 {
+  gap: 10px;
+  display: flex;
+  padding: 20px 19px;
+  align-self: stretch;
+  align-items: flex-start;
+  border-radius: 0 0 20px 20px;
+  flex-direction: column;
+  justify-content: center;
+  background-color: var(--dl-color-default-white);
+}
+.frame1-card2 {
+  width: 297.5px;
+  display: flex;
+  flex-grow: 1;
+  box-shadow: 0px 3px 15px 0px rgba(0, 0, 0, 0.10000000149011612);
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 20px;
+  flex-direction: column;
+  background-size: cover;
+  justify-content: flex-end;
+  background-image: 32d488f5-2b37-419d-95da-763db1c603df;
+}
+.frame1-card3 {
+  width: 297.5px;
+  display: flex;
+  flex-grow: 1;
+  box-shadow: 0px 3px 15px 0px rgba(0, 0, 0, 0.10000000149011612);
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 20px;
+  flex-direction: column;
+  background-size: cover;
+  justify-content: flex-end;
+  background-image: 1b48196e-98c0-4ad7-a007-7504af516207;
+}
+.frame1-card4 {
+  width: 297.5px;
+  display: flex;
+  flex-grow: 1;
+  box-shadow: 0px 3px 15px 0px rgba(0, 0, 0, 0.10000000149011612);
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 20px;
+  flex-direction: column;
+  background-size: cover;
+  justify-content: flex-end;
+  background-image: f32e72c0-582e-40a3-890b-660dc2aaa340;
+}
+.frame1-footer {
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-shrink: 0;
+  background-color: var(--dl-color-default-grey);
+}
+.frame1-apropos {
+  gap: 15px;
+  display: flex;
+  padding: 20px;
+  flex-grow: 1;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+/* Create a custom checkbox */
+.frame1-checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+}
+
+/* Media Query for Tablet (<= 1024px) */
+@media (max-width: 1024px) {
+  .frame1-menu {
+    padding: 0 20px; /* Adjust padding for smaller screens */
+    gap: 40px; /* Reduce gap for smaller screens */
+  }
+
+  .frame1-btn-hbergement {
+    max-width: 90%; /* Allow button to take more space */
+  }
+
+  .frame1-btn-activits {
+    max-width: 90%; /* Allow button to take more space */
+  }
+
+  .frame1-logo-reservia {
+    padding: 20px; /* Reduce padding for smaller screens */
+  }
+
+  .frame1-body {
+    padding: 0 10px; /* Reduce padding for smaller screens */
+  }
+  .frame1-desktop {
+    gap: 20px;
+    padding: 0 10px;
+    align-items: center;
+  }
+  .frame1-header {
+    height: 60px; /* Adjust header height */
+    padding: 10px;
+  }
+  .frame1-menu {
+    gap: 40px;
+    left: auto; /* Adjust or remove fixed positioning */
+    width: 100%;
+    padding: 0;
+  }
+  .frame1-buttons {
+    gap: 30px;
+    justify-content: center; /* Center buttons on smaller screens */
+  }
+
+  .frame1-bgbar {
+    width: 80px;
+  }
+  .frame1-btn-activits {
+    width: 50px;
+  }
+  .frame1-logo-reservia {
+    padding: 20px 10px;
+    max-width: 120px;
+  }
+  .frame1-searchbar {
+    width: 300px; /* Adjust width */
+  }
+  .frame1-filter-bar {
+    gap: 10px; /* Reduce gap between filters */
+  }
+  .frame1-filter1,
+  .frame1-filter2 {
+    padding: 4px 12px;
+  }
+  .frame1-sectiongroup {
+    gap: 20px; /* Reduce gap for medium screens */
+  }
+
+  .frame1-offers-main {
+    padding: 20px; /* Reduce padding for smaller screens */
+    gap: 20px;
+  }
+
+  .frame1-card-main1 {
+    max-width: 200px; /* Adjust card size */
+  }
+
+  .frame1-rectangle2 {
+    height: 100px; /* Adjust image height */
+  }
+
+  .frame1-infobar {
+    gap: 5px; /* Reduce spacing */
+  }
+
+  .frame1-icon1,
+  .frame1-icon2 {
+    width: 20px;
+    height: 20px;
+  }
+  .frame1-offers-sponsored {
+    padding: 20px;
+    gap: 20px;
+  }
+
+  .frame1-titre {
+    width: 100%;
+    height: auto;
+  }
+
+  .frame1-card-desktop1 {
+    width: 100%;
+    height: auto;
+  }
+
+  .frame1-frame4 {
+    gap: 25px;
+  }
+
+  .frame1-card1,
+  .frame1-card2,
+  .frame1-card3,
+  .frame1-card4 {
+    width: 48%;
+    margin-bottom: 20px;
+  }
+
+  .frame1-frame5 {
+    width: 100%;
+    padding: 10px;
+    position: relative;
+  }
+
+  .frame1-footer {
+    padding: 20px;
+  }
+
+  .frame1-apropos {
+    padding: 20px;
+  }
+}
+/* Media Query for Mobile (< 768px) */
+@media (max-width: 768px) {
+  .frame1-bgbar {
+    width: 60px;
+  }
+  .frame1-btn-activits {
+    width: 50px;
+    height: 30px;
+  }
+  .frame1-logo-reservia {
+    padding: 15px 10px;
+    max-width: 100px;
+  }
+  .frame1-body {
+    padding: 0 10px;
+  }
+  .frame1-group1 {
+    top: 5px;
+    left: 20px;
+  }
+  .frame1-searchbar {
+    width: 250px;
+  }
+  .frame1-filter-bar {
+    gap: 8px;
+    flex-direction: column; /* Stack filters vertically */
+  }
+  .frame1-desktop {
+    gap: 15px;
+    padding: 0 5px;
+  }
+  .frame1-header {
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 0;
+  }
+  .frame1-menu {
+    width: 100%;
+    left: 0;
+    padding: 0 20px;
+    gap: 20px; /* Reduce gap */
+  }
+  .frame1-buttons {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+  .frame1-text1,
+  .frame1-text2,
+  .frame1-text3,
+  .frame1-text4 {
+    font-size: 16px; /* Adjust text size */
+  }
+  .frame1-sectiongroup {
+    gap: 15px; /* Reduce gap further */
+  }
+
+  .frame1-offers-main {
+    padding: 15px;
+    gap: 15px;
+  }
+
+  .frame1-card-main1 {
+    max-width: 180px; /* Further reduce card size */
+  }
+
+  .frame1-rectangle2 {
+    height: 90px;
+  }
+
+  .frame1-frame2 {
+    flex-direction: column; /* Stack cards vertically on small screens */
+    gap: 15px;
+  }
+
+  .frame1-infobar {
+    gap: 3px;
+  }
+  .frame1-offers-sponsored {
+    padding: 15px;
+    gap: 15px;
+  }
+
+  .frame1-titre {
+    width: 100%;
+    height: auto;
+  }
+
+  .frame1-card-desktop1 {
+    width: 100%;
+    height: auto;
+  }
+
+  .frame1-frame4 {
+    gap: 20px;
+  }
+
+  .frame1-card1,
+  .frame1-card2,
+  .frame1-card3,
+  .frame1-card4 {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .frame1-frame5 {
+    width: 100%;
+    padding: 10px;
+    position: relative;
+  }
+
+  .frame1-footer {
+    padding: 10px;
+  }
+
+  .frame1-apropos {
+    padding: 15px;
+  }
+}
+
+/* For screens smaller than 480px (mobile) */
+@media (max-width: 480px) {
+  .frame1-desktop {
+    gap: 10px;
+    padding: 0 5px;
+  }
+  .frame1-header {
+    flex-direction: column;
+    height: auto;
+    padding: 5px 0;
+  }
+  .frame1-menu {
+    width: 100%;
+    gap: 10px;
+    padding: 0 10px;
+    flex-direction: column;
+  }
+  .frame1-buttons {
+    width: 100%;
+    justify-content: center;
+    gap: 15px;
+  }
+  .frame1-btn-hbergement {
+    width: 100%; /* Make button full-width */
+    height: auto;
+  }
+  .frame1-text1,
+  .frame1-text2,
+  .frame1-text3 {
+    font-size: 14px; /* Smaller text for mobile */
+  }
+  .frame1-bgbar {
+    width: 50px;
+  }
+  .frame1-btn-activits {
+    width: 100%; /* Full-width buttons */
+  }
+  .frame1-logo-reservia {
+    padding: 10px 5px;
+    max-width: 80px;
+  }
+  .frame1-searchbar {
+    width: 100%; /* Make search bar full-width */
+  }
+  .frame1-group2 {
+    width: 40px;
+    height: 40px;
+  }
+  .frame1-button-search-desktop {
+    padding: 10px;
+    border-radius: 10px; /* Adjust for smaller screens */
+  }
+  .frame1-filter-bar {
+    flex-direction: column;
+    gap: 5px;
+  }
+  .frame1-sectiongroup {
+    gap: 10px;
+    flex-direction: column; /* Stack sections vertically */
+  }
+
+  .frame1-offers-main {
+    padding: 10px;
+    gap: 10px;
+  }
+
+  .frame1-card-main1 {
+    max-width: 100%; /* Full-width cards */
+  }
+
+  .frame1-rectangle2 {
+    height: 80px;
+  }
+
+  .frame1-icon1,
+  .frame1-icon2 {
+    width: 18px;
+    height: 18px;
+  }
+
+  .frame1-infobar {
+    gap: 2px;
+  }
+  .frame1-offers-sponsored {
+    padding: 10px;
+    gap: 10px;
+  }
+
+  .frame1-titre {
+    width: 100%;
+    height: auto;
+    font-size: 14px; /* Optional: reduce font size for smaller screens */
+  }
+
+  .frame1-card-desktop1 {
+    width: 100%;
+    height: auto;
+  }
+
+  .frame1-frame4 {
+    gap: 15px;
+  }
+
+  .frame1-card1,
+  .frame1-card2,
+  .frame1-card3,
+  .frame1-card4 {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+
+  .frame1-footer {
+    padding: 8px;
+  }
+
+  .frame1-apropos {
+    padding: 10px;
+  }
+
+  .frame1-rectangle3 {
+    width: 100%;
+    height: 100px; /* Adjust size */
+  }
+}
