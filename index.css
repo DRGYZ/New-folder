@@ -332,6 +332,7 @@
   align-self: stretch;
   align-items: center;
   flex-shrink: 0;
+  flex-direction: row; /* Side by side on larger screens */
 }
 
 .frame1-offers-main {
@@ -352,8 +353,10 @@
   gap: 30px;
   display: flex;
   align-self: stretch;
-  align-items: flex-start;
   flex-shrink: 0;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .frame1-card-main1 {
@@ -646,9 +649,8 @@
     padding: 0 10px; /* Reduce padding for smaller screens */
   }
   .frame1-desktop {
-    gap: 20px;
-    padding: 0 10px;
-    align-items: center;
+    padding: 20px;
+    grid-template-columns: repeat(2, 1fr);
   }
   .frame1-header {
     height: 60px; /* Adjust header height */
@@ -687,11 +689,18 @@
   }
   .frame1-sectiongroup {
     gap: 20px; /* Reduce gap for medium screens */
+    flex-direction: column; /* Stacks the children vertically on tablets */
   }
 
   .frame1-offers-main {
     padding: 20px; /* Reduce padding for smaller screens */
     gap: 20px;
+    width: 100%;
+  }
+  .frame1-offers-sponsored {
+    padding: 20px;
+    gap: 20px;
+    width: 100%;
   }
 
   .frame1-card-main1 {
@@ -710,10 +719,6 @@
   .frame1-icon2 {
     width: 20px;
     height: 20px;
-  }
-  .frame1-offers-sponsored {
-    padding: 20px;
-    gap: 20px;
   }
 
   .frame1-titre {
@@ -745,6 +750,8 @@
   }
 
   .frame1-footer {
+    flex-direction: column; /* Stack items vertically on tablets */
+    align-items: center;
     padding: 20px;
   }
 
@@ -825,6 +832,11 @@
   .frame1-frame2 {
     flex-direction: column; /* Stack cards vertically on small screens */
     gap: 15px;
+    padding: 15px;
+  }
+  .frame1-frame2 img {
+    width: 100%; /* Ensure the images take full width */
+    height: auto;
   }
 
   .frame1-infobar {
@@ -864,7 +876,9 @@
   }
 
   .frame1-footer {
-    padding: 10px;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
   }
 
   .frame1-apropos {
@@ -984,7 +998,9 @@
   }
 
   .frame1-footer {
-    padding: 8px;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
   }
 
   .frame1-apropos {
@@ -994,5 +1010,14 @@
   .frame1-rectangle3 {
     width: 100%;
     height: 100px; /* Adjust size */
+  }
+  .frame1-frame2 {
+    padding: 10px;
+    flex-direction: column;
+  }
+
+  .frame1-frame2 img {
+    width: 100%;
+    height: auto;
   }
 }
